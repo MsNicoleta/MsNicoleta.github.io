@@ -19,7 +19,7 @@ var li=document.createElement("li");
 	input.value="";
 
 		var btn = document.createElement("button");
-     	btn.appendChild(document.createTextNode("Delete!"));
+     	btn.appendChild(document.createTextNode("❌"));
  		li.appendChild(btn);
  		btn.onclick = removeParent;
 }
