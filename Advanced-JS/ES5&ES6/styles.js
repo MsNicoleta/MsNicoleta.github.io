@@ -1,4 +1,7 @@
-// ||let + const||
+//const for constant we are not abble to reeasign a variable
+// we cange change the properties but we cannot resign the veariable of the const
+//let the let though is it possible to change/ reasign the variable 
+
 
 // const player = 'bobby'
 // let experience = 100;
@@ -40,6 +43,8 @@ const c = 789;
 a = 'test2';
 
 // Destructuring
+
+
 var person = {
     firstName : "John",
     lastName  : "Doe",
@@ -56,6 +61,13 @@ var eyeColor = person.eyeColor;
 
 
 // Object properties
+
+const name = 'john snow';
+const obj = {
+    [name]: 'hello'
+    ['ray + smith']: 'hihih'
+}
+
 var a = 'test';
 var b = true;
 var c = 789;
@@ -68,6 +80,13 @@ var okObj = {
 
 
 // Template strings
+const name = "Sally";
+const age = 34;
+const pet = "horse"
+
+const greeting = "hello" + name + " you seem to be doing " + greeting + "!";
+
+const greetingBest = ``
 var message = "Hello " + firstName + " have I met you before? I think we met in " + city + " last summer no???";
 
 
